@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    {% block head %}
+    <title>Pedro Mendonça</title>
+    {% endblock %}
+    
+    
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    
+    <header> 
+        <img id="top" src="https://avatars0.githubusercontent.com/u/60626514?s=460&u=656992e7f5e11fc68cb6ba440dff0235b8ee2df2&v=4" alt="Imagem de Pedro Mendonça">       
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="/portfolio">Portfolio</a>
+        </div>        
+    </header>
+
+    {% block content %}  
+    {% endblock %}
+
+</body>
+</html>
